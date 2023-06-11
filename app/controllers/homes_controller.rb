@@ -1,4 +1,7 @@
 class HomesController < ApplicationController
+  def top
+  end
+
   def sign_in
   end
 
@@ -15,5 +18,11 @@ class HomesController < ApplicationController
   end
 
   def edit
+  end
+
+  def about
+  end
+
+  def create
   end
 end
