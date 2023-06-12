@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
 
 
-  resources :post_images, only: [:new, :create, :index, :show]
+  resources :post_images, only: [:new, :create, :index, :show, :destroy]
   # get 'homes/sign_in'
   # get 'homes/sign_up'
   # get 'homes/post_images'
