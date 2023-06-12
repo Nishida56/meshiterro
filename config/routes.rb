@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
 
   resources :post_images, only: [:new, :create, :index, :show, :destroy]
+  resources :users, only: [:show, :edit]
   # get 'homes/sign_in'
   # get 'homes/sign_up'
   # get 'homes/post_images'
